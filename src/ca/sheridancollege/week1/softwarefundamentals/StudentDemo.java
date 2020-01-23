@@ -13,6 +13,15 @@ public class StudentDemo
 {
   private String studentID;
   private String name;
+  private double Score;
+
+    public double getScore() {
+        return Score;
+    }
+
+    public void setScore(double Score) {
+        this.Score = Score;
+    }
   
   /**
    * A constructor to pass in the given ID and then name
